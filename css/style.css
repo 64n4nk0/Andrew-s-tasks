@@ -1,3 +1,8 @@
+body {
+    font-family: Futura PT;
+    background-color: #000;
+}
+
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -7,10 +12,18 @@
 
 .content__row {
     display: flex;
-    background: pink;
+    background: #fff;
     width: 790px;
-    border-top: 1px solid #553D6C;
     border-bottom: 1px solid #553D6C;
+    padding: 20px 27px 32px 30px;
+}
+
+.content__row-first {
+    display: flex;
+    background: #fff;
+    width: 790px;
+    border-bottom: 1px solid #553D6C;
+    border-top: 1px solid #553D6C;
     padding: 20px 27px 32px 30px;
 }
 
@@ -22,10 +35,68 @@
     margin: 0 180px 0 0;
 }
 
+.description__title {
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.description__sub-title {
+    font-size: 12px;
+    line-height: 15px;
+    color: #ADADAD;
+}
+
 .price {
     margin: 0 104px 0 0;
 }
 
+.price__title {
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.price__sub-title {
+    font-size: 12px;
+    line-height: 15px;
+    color: #ADADAD;
+}
+
 .enchanting {
     margin: 0 63px 0 0;
+}
+
+.enchanting__title {
+    font-size: 16px;
+    line-height: 21px;
+    color: #ADADAD;
+}
+
+.enchanting__sub-title {
+    font-size: 12px;
+    line-height: 15px;
+    color: #ADADAD;
+}
+
+.button {
+    background: #FF802B;
+    display: flex;
+    width: 137.01px;
+    height: 38px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -3px #B25A1E inset
+}
+
+.button__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
