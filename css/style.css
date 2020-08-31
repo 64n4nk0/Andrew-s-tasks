@@ -1,57 +1,74 @@
-.container {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding-left: .9375rem;
-    padding-right: .9375rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.content__square {
-    width: 170px;
-    height: 217px;
-    border-radius: 5px;
-}
-
-.content__first-group {
-    display: flex;
-}
-
-.content__first-group div+div {
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-.content__second-group div+div {
-    margin-left: 20px;
-}
-
-.content__second-group {
-    display: flex;
-}
-
-.square__title {}
-
-.square__logo {}
-
-.square__cirle {}
-
-.blue {
-    background: #6378B1;
-}
-
-.pink {
-    background: linear-gradient(210.93deg, rgba(251, 125, 238, 0.8) 0%, rgba(194, 91, 165, 0.8) 99.12%), #586B9E;
-}
-
-.violet {
-    background: linear-gradient(210.93deg, rgba(186, 132, 240, 0.8) 0%, rgba(192, 91, 194, 0.8) 99.12%), #586B9E;
-}
-
-.red {
-    background: linear-gradient(210.93deg, rgba(255, 115, 115, 0.9) 0%, rgba(224, 59, 79, 0.9) 99.12%), #586B9E;
-}
-
-.yellow {
-    background: linear-gradient(210.93deg, #FFDB5A 0%, #FAC300 99.12%), #586B9E;
-}
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding-left: .9375rem;
+            padding-right: .9375rem;
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+        }
+        
+        .content__square {
+            width: 170px;
+            height: 217px;
+            border-radius: 5px;
+        }
+        
+        .content__first-group {
+            display: flex;
+        }
+        
+        .content__first-group div+div {
+            margin-left: 11px;
+            margin-bottom: 9px;
+        }
+        
+        .content__second-group div+div {
+            margin-left: 9px;
+        }
+        
+        .content__second-group {
+            display: flex;
+        }
+        
+        .square__title {
+            padding: 16px 2px 0 2px;
+            text-align: center;
+            padding-top: 16px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            color: #fff
+        }
+        
+        .square__logo {
+            display: flex;
+            justify-content: center;
+            padding: 33px 0 0 0;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 50%
+        }
+        
+        .circle {}
+        
+        .blue {
+            background: #6378B1;
+        }
+        
+        .pink {
+            background: linear-gradient(210.93deg, rgba(251, 125, 238, 0.8) 0%, rgba(194, 91, 165, 0.8) 99.12%), #586B9E;
+        }
+        
+        .violet {
+            background: linear-gradient(210.93deg, rgba(186, 132, 240, 0.8) 0%, rgba(192, 91, 194, 0.8) 99.12%), #586B9E;
+        }
+        
+        .red {
+            background: linear-gradient(210.93deg, rgba(255, 115, 115, 0.9) 0%, rgba(224, 59, 79, 0.9) 99.12%), #586B9E;
+        }
+        
+        .yellow {
+            background: linear-gradient(210.93deg, #FFDB5A 0%, #FAC300 99.12%), #586B9E;
+        }
