@@ -1,0 +1,31 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 6px .9375rem .9375rem 42px;
+    background-color: #fff;
+}
+
+.content__row {
+    display: flex;
+    background: pink;
+    width: 790px;
+    border-top: 1px solid #553D6C;
+    border-bottom: 1px solid #553D6C;
+    padding: 20px 27px 32px 30px;
+}
+
+.stone {
+    margin: 0 30px 0 0;
+}
+
+.description {
+    margin: 0 180px 0 0;
+}
+
+.price {
+    margin: 0 104px 0 0;
+}
+
+.enchanting {
+    margin: 0 63px 0 0;
+}
